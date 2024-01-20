@@ -1,11 +1,12 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 
-import './index.css'
-import { RTKQueryLearning } from './RTKQueryLearning'
+import { RTKQueryLearning } from './RTKQueryLearning';
+
+import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <RTKQueryLearning />
-  </React.StrictMode>,
-)
+  </React.StrictMode>
+);

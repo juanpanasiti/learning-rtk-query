@@ -1,9 +1,12 @@
+import { Provider } from 'react-redux';
+
+import { HomePage } from './pages/HomePage';
+import { store } from './store';
 
 export const RTKQueryLearning = () => {
   return (
-    <>
-    <h1>RTKQueryLearning</h1>
-    <hr />
-    </>
-  )
-}
+    <Provider store={store}>
+      <HomePage />
+    </Provider>
+  );
+};
